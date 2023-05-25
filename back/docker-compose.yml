@@ -1,0 +1,37 @@
+version: '3.8'
+services:
+  form-db:
+    image: postgres:13
+    container_name: form-db
+    hostname: form-db
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: adm
+      POSTGRES_PASSWORD: adm
+      POSTGRES_DB: form
+    networks:
+      - formcreator-back
+
+  form-redis:
+    image: 'redis:alpine'
+    container_name: form-redis
+    ports:
+      - '6379:6379'
+    networks:
+      - formcreator-back
+
+  server:
+    build: .
+    ports:
+      - 5000:5000
+    env_file:
+      - ./.env
+    depends_on:
+      - form-db
+      - form-redis
+    networks:
+      - formcreator-back
+
+networks:
+  formcreator-back:

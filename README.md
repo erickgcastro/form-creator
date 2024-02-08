@@ -1,4 +1,4 @@
-# Projeto de Plataforma de Formulários
+# Plataforma para a Criação e Gestão de Formulários
 
 Este é um projeto de uma plataforma em que os usuários podem criar formulários e compartilhá-los com outras pessoas para realizar pesquisas, provas ou qualquer outro tipo de questionário.
 

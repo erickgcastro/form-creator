@@ -1,7 +1,6 @@
 # Plataforma para a Criação e Gestão de Formulários
 
-Este é um projeto de uma plataforma em que os usuários podem criar formulários e compartilhá-los com outras pessoas para realizar pesquisas, provas ou qualquer outro tipo de questionário.
-
+Esta é uma plataforma que permite aos usuários criar formulários personalizados e compartilhá-los facilmente com outros participantes. Ideal para a realização de pesquisas, avaliações ou questionários diversos, a plataforma proporciona uma experiência intuitiva e eficiente na criação e administração de formulários. Simplificando o processo, os usuários podem personalizar suas perguntas, ajustar opções de resposta e distribuir os formulários de maneira conveniente, tornando a coleta de informações mais acessível e organizada.
 ## Executando o Projeto Localmente
 
 Para executar o projeto localmente em sua máquina, siga as etapas abaixo:
